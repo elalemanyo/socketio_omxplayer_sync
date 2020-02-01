@@ -1,0 +1,19 @@
+{
+  "name": "socketio_omxplayer_sync",
+  "version": "1.0.0",
+  "description": "sync omxplayer with socket.io",
+  "main": "omx-sync.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:elalemanyo/socketio_omxplayer_sync.git"
+  },
+  "author": "elalemanyo",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "socket.io": "^2.3.0",
+    "dbus-native":"^0.4.0"
+  }
+}
