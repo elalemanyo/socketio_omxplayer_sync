@@ -21,7 +21,7 @@ if (file == undefined) {
 }
 
 //kill previous player if the script needs to restart
-var killall = exec('killall omxplayer.bin', (error, stdout, stderr) => {
+var killall = exec('pkill omxplayer', (error, stdout, stderr) => {
   if (error) {
     console.error(`exec error: ${error}`);
     return;
