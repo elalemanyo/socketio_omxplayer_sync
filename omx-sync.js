@@ -24,7 +24,7 @@ if (file == undefined) {
 var killall = exec('killall omxplayer.bin', (error, stdout, stderr) => {
   if (error) {
     console.error(`exec error: ${error}`);
-    return 0;
+    return;
   }
   console.log(`stdout: ${stdout}`);
   console.log(`stderr: ${stderr}`);
