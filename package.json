@@ -12,8 +12,11 @@
   },
   "author": "elalemanyo",
   "license": "UNLICENSED",
+  "engines": {
+    "node": "9.3.0"
+  },
   "dependencies": {
-    "socket.io": "^2.3.0",
-    "dbus-native": "^0.4.0"
+    "socket.io": "^1.4.5",
+    "dbus-native":"^0.2.0"
   }
 }
