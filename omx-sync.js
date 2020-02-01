@@ -6,7 +6,7 @@ var io = require('socket.io')(server, {'pingInterval': 10000, 'pingTimeout': 150
 var dbus = require('dbus-native');
 var exec = require('child_process').exec;
 var file = process.argv.slice(2)[1]; //get a path to the video argument
-var options = '-o hdmi -b --loop --no-osd '
+var options = '-o hdmi -b --loop --no-osd ';
 var currentPosition, totalDuration;
 var bus; //main DBUS
 var gate = true;
@@ -17,7 +17,7 @@ server.listen(3000, function() { console.log( 'Listening on port 3000') });
 // PARSE TERMINAL INPUT.
 if (file == undefined) {
   console.log("no video file specified");
-  return
+  return;
 }
 
 //kill previous player if the script needs to restart
@@ -69,8 +69,8 @@ socket.on('loopFlag', function(loopFlag){
   seek( s2micro(1) );
   setTimeout(function(){
     gate = true;
-  },1000)
-})
+  },1000);
+});
 
 //DBUS HANDLING
 setTimeout(function(){ //wait for dbus to become available.
