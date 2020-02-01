@@ -14,6 +14,6 @@
   "license": "UNLICENSED",
   "dependencies": {
     "socket.io": "^2.3.0",
-    "dbus-native":"^0.4.0"
+    "dbus-native": "^0.4.0"
   }
 }
