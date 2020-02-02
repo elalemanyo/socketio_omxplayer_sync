@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git@github.com:elalemanyo/socketio_omxplayer_sync.git"
   },
-  "author": "elalemanyo",
-  "license": "UNLICENSED",
+  "author": "bmoren",
+  "license": "GNU General Public License v3.0",
   "engines": {
     "node": "9.3.0"
   },
