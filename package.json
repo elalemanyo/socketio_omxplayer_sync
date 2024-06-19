@@ -16,7 +16,7 @@
     "node": "10.0.0"
   },
   "dependencies": {
-    "socket.io": "2.3.0",
+    "socket.io": "2.5.0",
     "dbus-native":"0.4.0"
   }
 }
